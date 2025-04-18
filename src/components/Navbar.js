@@ -100,7 +100,7 @@ export default function Navbar() {
                       </Link>
                     </li>
 
-                    <li className="nav-item">
+                    {/* <li className="nav-item">
                       <Link
                         className={`${
                           location.pathname === "/contact" ? "activenav" : ""
@@ -121,7 +121,7 @@ export default function Navbar() {
                       >
                         Premium(₹)
                       </Link>
-                    </li>
+                    </li> */}
                     <li className="nav-item">
                       <select
                         onChange={handleChange}

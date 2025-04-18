@@ -143,7 +143,7 @@ export default function Exchanges() {
           </table>
         ) : (
           <div className="tablecoinserr">
-            Error Fetching Data or No Data Available.
+            You are on a Free plan, You can only check Realtime Crypto Data 5 times in a minute.
           </div>
         )}
       </div>

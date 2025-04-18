@@ -20,7 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route index element={<Coins />} />
-            <Route path="contact" element={<Contact />} />
+            {/* <Route path="contact" element={<Contact />} /> */}
             
             <Route path="about" element={<About />} />
             <Route path="*" element={<PageNotFound />} />
@@ -32,7 +32,7 @@ function App() {
             <Route path="coins/:id" element={<CoinPage />} />
           </Route>
         </Routes>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
         <BottomToTop></BottomToTop>
       </BrowserRouter>
     </>  

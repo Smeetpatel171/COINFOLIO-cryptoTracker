@@ -56,7 +56,7 @@ export default function Hero() {
         setTrendingCoins(res.data);
       })
       .catch((error) => {
-        setTrendingCoinsErr(`${error.message} on fetching Most Trending coins.`);
+        setTrendingCoinsErr(` You are on a Free plan, You can only check Realtime Crypto Data 5 times in a minute.`);
       });
   };
   useEffect(() => {
